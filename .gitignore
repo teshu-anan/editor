@@ -1,0 +1,19 @@
+# ---- Qt / qmake 构建产物 ----
+build/
+debug/
+release/
+*.o
+*.obj
+Makefile
+Makefile.Debug
+Makefile.Release
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.pro.user.*
+
+# ---- 编辑器 / 系统临时文件 ----
+.vscode/
+Thumbs.db
+.DS_Store
